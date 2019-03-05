@@ -1,0 +1,13 @@
+{
+    "name": "regionhalland/region-halland-use-taxonomy-category-on-page",
+    "description": "Plugin som gör det möjligt att använda taxonomin category även på sidor",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roland Hydén",
+            "email": "Roland.Hyden@Regionhalland.se"
+        }
+    ],
+    "require": {}
+}
