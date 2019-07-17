@@ -6,9 +6,9 @@
 	/*
 	Plugin Name: Region Halland Use Taxonomy Category on Page
 	Description: Lägg till så att taxonomy category även kan användas på sidor
-	Version: 1.0.0
+	Version: 1.1.0
 	Author: Roland Hydén
-	License: MIT
+	License: GPL-3.0
 	Text Domain: regionhalland
 	*/
 
@@ -29,7 +29,7 @@
 		// Kontrollera om det är en kategori
 		if($wp_query->is_main_query() && ! is_admin() && ($wp_query->is_category())){
 		    
-		    // Hämta array
+		    // Sätt array för aktuella posttyper
 		    $my_post_array = array('post','page');
 		    
 		    // Sätt data
